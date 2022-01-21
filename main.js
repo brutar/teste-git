@@ -1,12 +1,13 @@
 /* 
-Mostra quantas cliques foram feitos da opções de estilos musicais
+Mostra quantos cliques foram feitos da opções de estilos musicais
 */
-
 const btn = document.querySelector('#btn');
 const opt = document.querySelector("#tipoMusica");
 var atributoOpt = document.querySelector(".op");
 
+//contador das seleções
 let contadorSelecao = 0;
+
 opt.addEventListener("click", function(e){
 			e.preventDefault();
       	if(e.target.textContent){
